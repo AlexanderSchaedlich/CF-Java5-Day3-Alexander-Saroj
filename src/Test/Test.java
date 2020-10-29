@@ -1,5 +1,7 @@
 package Test;
 
+import java.util.Scanner;
+
 public class Test {
     public static void main(String[] args) {
         /*
@@ -73,6 +75,7 @@ public class Test {
         }
          */ // arrange the array in acceding
 
+        /*
         int[] intArray = {52, 11, 24};
 
         for (int i = 0; i < intArray.length; i++) {
@@ -88,6 +91,33 @@ public class Test {
         for (int element : intArray) {
             System.out.println(element);
         }
+        */
 
+        /*
+        for (int i = 1; i <= 100; i++) {
+            if (i % 2 == 0) {
+                System.out.println(i);
+            }
+        }
+         */
+
+        /*
+        Scanner input = new Scanner(System.in);
+        System.out.println("Please enter a number:");
+        int number = input.nextInt();
+        int sum = number * (number + 1) / 2;
+        System.out.println(sum);
+         */
+
+        int[] intArray = new int[10];
+        Scanner input = new Scanner(System.in);
+        for (int i = 0; i < 10; i++) {
+            System.out.println("Please enter a number:");
+            intArray[i] = input.nextInt();
+        }
+
+        for (int number : intArray) {
+            System.out.println(number);
+        }
     }
 }
