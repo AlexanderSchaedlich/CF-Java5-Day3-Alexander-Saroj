@@ -71,7 +71,7 @@ public class Test {
         } else {
             System.out.println(number4);
         }
-         */
+         */ // arrange the array in acceding
 
         int[] intArray = {52, 11, 24};
 

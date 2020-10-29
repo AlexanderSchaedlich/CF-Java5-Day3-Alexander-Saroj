@@ -49,7 +49,7 @@ public class Test {
         else{
             System.out.print( n+ "is odd ");
         }*/
-        int a = 52;
+        /*int a = 52;
         int b = 11;
         int c = 24;
         int maximum;
@@ -78,8 +78,10 @@ public class Test {
             else {
                 System.out.print("The 2nd one is " + a +" and smallest one is" +b);
             }
+        }*/
+
+        for (int i = 1; i <= 100; i++) {
+            System.out.println(i);
         }
-
-
     }
 }
