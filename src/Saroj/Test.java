@@ -41,14 +41,45 @@ public class Test {
                 System.out.print("sunday");
 
         }*/
-
-        int n = 3;
+// Even or odd excercise
+       /* int n = 3;
         if (n%2 == 0){
             System.out.print( n+ " is Even ");
         }
         else{
             System.out.print( n+ "is odd ");
+        }*/
+        int a = 52;
+        int b = 11;
+        int c = 24;
+        int maximum;
+        if (a > b && a > c) {
+            System.out.print("The biggest one is " + a);
+            if(b>c){
+                System.out.print("The 2nd one is " + b +" and smallest one is" +c);
+            }
+            else {
+                System.out.print("The 2nd one is " + c +" and smallest one is" +b);
+            }
+
+        } else if (b > c && b > a) {
+            System.out.print("The biggest one is " + a);
+            if(a>c){
+                System.out.print("The 2nd one is " + a +" and smallest one is" +c);
+            }
+            else {
+                System.out.print("The 2nd one is " + c +" and smallest one is" +a);
+            }
+        } else {
+            System.out.print("The biggest one is " + c);
+            if(b>a){
+                System.out.print("The 2nd one is " + b +" and smallest one is" +a);
+            }
+            else {
+                System.out.print("The 2nd one is " + a +" and smallest one is" +b);
+            }
         }
 
+
     }
-    }
+}
