@@ -109,7 +109,7 @@ public class Test {
             }
 
             }*/
-        int[] array = {3, 5, 6, 10, 0, 23, 19, 11, 30, 9, 0};
+        /*int[] array = {3, 5, 6, 10, 0, 23, 19, 11, 30, 9, 0};
         int counter = 0;
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number and find in the array");
@@ -126,6 +126,16 @@ public class Test {
         } else {
 
             System.out.print(counter);
+        }*/
+        int[] intArray = new int[10];
+        Scanner input = new Scanner(System.in);
+        for (int i = 0; i < 10; i++) {
+            System.out.println("Please enter a number:");
+            intArray[i] = input.nextInt();
+        }
+
+        for (int i = intArray.length-1; i>=0 ;i--) {
+            System.out.println(intArray[i]);
         }
     }
 }
