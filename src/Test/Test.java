@@ -76,7 +76,7 @@ public class Test {
          */ // arrange the array in acceding
 
         /*
-        int[] intArray = {52, 11, 24};
+        /*int[] intArray = {52, 11, 24};
 
         for (int i = 0; i < intArray.length; i++) {
             for (int j = 0; j < intArray.length; j++) {
@@ -90,8 +90,9 @@ public class Test {
 
         for (int element : intArray) {
             System.out.println(element);
-        }
-        */
+        }*/
+
+       
 
         /*
         for (int i = 1; i <= 100; i++) {
