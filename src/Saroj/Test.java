@@ -16,7 +16,7 @@ public class Test {
         else if  (number > 1000000){
             System.out.println("number is large");
         }*/
-
+/*
         int x = 2;
         switch (x) {
             case 1:
@@ -40,6 +40,14 @@ public class Test {
             default:
                 System.out.print("sunday");
 
+        }*/
+
+        int n = 3;
+        if (n%2 == 0){
+            System.out.print( n+ " is Even ");
+        }
+        else{
+            System.out.print( n+ "is odd ");
         }
 
     }
