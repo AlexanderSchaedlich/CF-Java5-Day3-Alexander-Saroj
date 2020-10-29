@@ -13,7 +13,7 @@ public class Test {
         if (number<1){
             System.out.println("number is small");
         }
-        else if  (number > 1,000, 000){
+        else if  (number > 1000000){
             System.out.println("number is large");
         }
     }
