@@ -86,7 +86,7 @@ public class Test {
         /*for (int i = 1; i <= 100; i++) {
             System.out.println(i);
         }*/
-        Scanner sc = new Scanner(System.in);
+       /* Scanner sc = new Scanner(System.in);
         System.out.print("Enter first number- ");
         int a = sc.nextInt();
         System.out.print("Enter second number- ");
@@ -108,7 +108,25 @@ public class Test {
 
             }
 
+            }*/
+        int[] array = {3, 5, 6, 10, 0, 23, 19, 11, 30, 9, 0};
+        int counter = 0;
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the number and find in the array");
+        int usernumber = sc.nextInt();
+        for (int i = 0; i < array.length; i++) {
+            if (usernumber == array[i]) {
+                counter++;
+
             }
+
+        }
+        if (counter == 0) {
+            System.out.print("Item not found");
+        } else {
+
+            System.out.print(counter);
         }
     }
+}
 
