@@ -1,4 +1,7 @@
+
 package Saroj;
+
+import java.util.Scanner;
 
 public class Test {
     public static void main(String[] args) {
@@ -80,8 +83,32 @@ public class Test {
             }
         }*/
 
-        for (int i = 1; i <= 100; i++) {
+        /*for (int i = 1; i <= 100; i++) {
             System.out.println(i);
+        }*/
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter first number- ");
+        int a = sc.nextInt();
+        System.out.print("Enter second number- ");
+        int b = sc.nextInt();
+        if (a < b) {
+            for (int i = a; i <= b; i++) {
+                if (i % 2 != 0) {
+                    System.out.println(i);
+                }
+            }
+
+        }
+        else {
+
+            for (int i = a; i >= b; i--) {
+                if (i % 2 != 0) {
+                    System.out.println(i);
+                }
+
+            }
+
+            }
         }
     }
-}
+
