@@ -59,6 +59,8 @@ public class Test {
             System.out.println("The numbers are equal. Their value is " + number2);
         }
         */
+
+        /*
         double number4 = 34;
         if (number4 % 15 == 0) {
             System.out.println("FizzBuzz");
@@ -69,5 +71,23 @@ public class Test {
         } else {
             System.out.println(number4);
         }
+         */
+
+        int[] intArray = {52, 11, 24};
+
+        for (int i = 0; i < intArray.length; i++) {
+            for (int j = 0; j < intArray.length; j++) {
+                if (intArray[i] > intArray[j]) {
+                    int currentElement = intArray[i];
+                    intArray[i] = intArray[j];
+                    intArray[j] = currentElement;
+                }
+            }
+        }
+
+        for (int element : intArray) {
+            System.out.println(element);
+        }
+
     }
 }
