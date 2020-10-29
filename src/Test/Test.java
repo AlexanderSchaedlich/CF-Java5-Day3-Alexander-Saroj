@@ -109,6 +109,7 @@ public class Test {
         System.out.println(sum);
          */
 
+        /*
         int[] intArray = new int[10];
         Scanner input = new Scanner(System.in);
         for (int i = 0; i < 10; i++) {
@@ -119,5 +120,52 @@ public class Test {
         for (int number : intArray) {
             System.out.println(number);
         }
+         */
+        String[] foodPortion = {
+                "1 l  milk",
+                "1 slice of bread",
+                "100 gr chicken breast",
+                "200 gr salad"
+        };
+        int[] kcalPerPortion = {62, 74, 165, 33};
+        int[] breakfast = {2, 4, 1, 0};
+        int[] lunch = {2, 4, 2, 5};
+        int[] dinner = {2, 4, 1, 0};
+        int counter = 0;
+
+        System.out.println("BREAKFAST");
+        System.out.println("============");
+        for (int i = 0; i < foodPortion.length; i++) {
+            if (breakfast[i] == 0) {
+                continue;
+            }
+            System.out.println(breakfast[i] + " x " + foodPortion[i]);
+            counter += kcalPerPortion[i];
+        }
+
+        System.out.println("");
+        System.out.println("LUNCH");
+        System.out.println("============");
+        for (int i = 0; i < foodPortion.length; i++) {
+            if (lunch[i] == 0) {
+                continue;
+            }
+            System.out.println(lunch[i] + " x " + foodPortion[i]);
+            counter += kcalPerPortion[i];
+        }
+
+        System.out.println("");
+        System.out.println("DINNER");
+        System.out.println("============");
+        for (int i = 0; i < foodPortion.length; i++) {
+            if (dinner[i] == 0) {
+                continue;
+            }
+            System.out.println(dinner[i] + " x " + foodPortion[i]);
+            counter += kcalPerPortion[i];
+        }
+
+        System.out.println("");
+        System.out.println("The total amount of kcal is " + counter);
     }
 }
